@@ -381,10 +381,10 @@ Understanding alternative notations helps in reading different texts on logic or
 
 | Name                  | Symbol                  | Description                                            |
 |-----------------------|-------------------------|--------------------------------------------------------|
-| Logical AND           | $( \land, \&, \cdot )$  | Represents logical conjunction                          |
-| Logical OR            | $( \lor, + )$           | Represents logical disjunction                          |
-| Individual Constant   | $( a, b, c, \ldots )$   | Symbols that uniquely identify specific objects        |
-| Atomic Sentence       | $( P(a), Q(b), R(c) )$  | Simplest form of sentences incorporating individual constants |
+| Logical AND           | $( \land, \& , \cdot )$  | Represents logical conjunction                          |
+| Logical OR            | $( \lor, + )$            | Represents logical disjunction                          |
+| Individual Constant   | $( a, b, c, \ldots )$    | Symbols that uniquely identify specific objects        |
+| Atomic Sentence       | $( P(a), Q(b), R(c) )$   | Simplest form of sentences incorporating individual constants |
 
 #### 📝 Summary of Key Point:
 
