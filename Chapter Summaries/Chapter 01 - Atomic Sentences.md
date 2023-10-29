@@ -2,7 +2,7 @@
 
 # Language Proof and Logic
 
-## Chapter 1
+## Chapter 1 - Atomic Sentences
 
 ### 1.1 Individual constants
 
