@@ -3,8 +3,11 @@
 # Language Proof and Logic
 
 ## Chapter 1 - Atomic Sentences
+```
 
-### 1.1 Individual constants
+```
+## Atomic Sentences
+### **1.1 Individual constants**
 
 #### 🧒 Explain to me like I am 10
 
@@ -49,8 +52,8 @@ Understanding individual constants is crucial for constructing precise logical s
 An individual constant is a specific "label" used in formal logic to refer to a particular object in a domain. These constants are crucial in forming atomic sentences, which are the simplest types of sentences in logic that express a complete thought. They help make your logical statements precise and clear.
 
 ---
-
-### 1.2 Atomic Sentences - Predicate symbols
+## Atomic Sentences
+### **1.2 Predicate symbols**
 
 #### 🧒 Explain to me like I am 10
 
@@ -92,8 +95,8 @@ Predicate symbols are used to describe properties or relationships in formal log
 
 ---
 
-
-### 1.3 Atomic Sentences - Atomic sentences
+## Atomic Sentences
+### **1.3 Atomic sentences**
 
 #### 🧒 Explain to me like I am 10
 
@@ -136,8 +139,8 @@ Atomic sentences are the simplest kinds of sentences in formal logic. They serve
 
 ---
 
-
-### 1.4 Atomic Sentence - General First-Order Languages
+## Atomic Sentences
+### **1.4 General First-Order Languages**
 
 #### 🧒 Explain to me like I am 10
 
@@ -183,7 +186,7 @@ General first-order languages extend the capabilities of basic logical languages
 
 
 ## Atomic Sentences
-### 1.5 Function symbols
+### **1.5 Function symbols**
 
 #### 🧒 Explain to me like I am 10
 
@@ -229,7 +232,7 @@ Function symbols in formal logic are used to represent operations or transformat
 
 
 ## Atomic Sentences
-### 1.6 The First-Order Language of Set Theory
+### **1.6 The First-Order Language of Set Theory**
 
 #### 🧒 Explain to me like I am 10
 
@@ -273,13 +276,15 @@ The first-order language of set theory is a formal language used to discuss sets
 ---
 
 ## Atomic Sentences
-### 1.7 The first-order language of arithmetic
+### **1.7 The first-order language of arithmetic**
 
 
---
+
+---
+
 
 ## Atomic Sentences
-### 1.8 Alternative notation
+### **1.8 Alternative notation**
 
 
 
