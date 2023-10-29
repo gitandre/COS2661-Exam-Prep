@@ -104,7 +104,52 @@ Methods of proof are structured approaches used in logic to validate or prove st
 
 ---
 
-### 2.3 Formal proofs
+## The Logic of Atomic Sentences
+### **2.3 Formal proofs**
+
+#### 🧒 Explain to me like I am 10:
+
+Imagine you're building a LEGO tower. Each LEGO block has to fit perfectly for the tower to be strong and stand tall. In the same way, a formal proof is like a tower of reasons, where each reason fits perfectly to show that something is true.
+
+#### 🎓 A formal explanation explained:
+
+A formal proof is a structured, step-by-step demonstration that uses the rules of logic to show that a certain statement is true. Each step in a formal proof follows logically from the previous steps, ensuring the conclusion is reached in a logically sound manner.
+
+#### 📖 Definition:
+
+A formal proof is a sequence of logical statements and inferences that lead from a set of premises to a conclusion, adhering strictly to the rules of logic.
+
+#### 📐 Example:
+
+\`\`\`plaintext
+Example of a Formal Proof using Modus Ponens:
+1. If it rains, then the ground will be wet. (Premise)
+2. It is raining. (Premise)
+3. Therefore, the ground is wet. (Conclusion by Modus Ponens from 1 and 2)
+   \`\`\`
+
+#### 💡 Hints/Tips/Rules:
+
+- Always start with clearly stated premises.
+- Follow the rules of logic strictly at each step.
+- Be meticulous; even a small mistake can invalidate the entire proof.
+
+#### 🎯 Why is it relevant and when to use it:
+
+Formal proofs are the cornerstone of logical and mathematical reasoning. They are essential in fields like computer science, philosophy, and mathematics to rigorously establish the truth of statements.
+
+#### 📚 Symbols and notations used:
+
+| Name               | Symbol                | Description                                         |
+|--------------------|-----------------------|-----------------------------------------------------|
+| Individual Constant| $( a, b, c, \ldots )$  | Symbols that uniquely identify specific objects     |
+| Atomic Sentence    | $( P(a), Q(b), R(c) )$| Simplest form of sentences incorporating individual constants |
+
+#### 📝 Summary of Key Point:
+
+A formal proof is a rigorous, step-by-step demonstration that uses logical rules to establish the truth of a statement. It is a foundational element in logical and mathematical reasoning.
+
+---
 
 ### 2.4 Constructing proofs in Fitch
 
