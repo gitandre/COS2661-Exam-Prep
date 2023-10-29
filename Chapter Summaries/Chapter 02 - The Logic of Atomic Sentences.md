@@ -57,7 +57,52 @@ A valid argument is one where the conclusion logically follows from the premises
 
 ---
 
-### 2.2 Methods of proof
+## The Logic of Atomic Sentences
+### **2.2 Methods of Proof**
+
+#### 🧒 Explain to me like I am 10:
+
+Think of methods of proof like the moves you can make in a game of chess. Each move has rules, and you use them to win the game. In the same way, there are different methods to show that something is true in logic, like a detective proving who the villain is!
+
+#### 🎓 A formal explanation explained:
+
+Methods of proof in formal logic are the structured approaches used to demonstrate the validity or soundness of a statement or argument. These methods often involve applying logical rules to manipulate atomic and compound sentences to reach a conclusion.
+
+#### 📖 Definition:
+
+Methods of proof refer to the systematic procedures, such as Modus Ponens, Modus Tollens, and proof by contradiction, used to derive a conclusion from a set of premises.
+
+#### 📐 Example:
+
+\`\`\`plaintext
+Example using Modus Ponens:
+1. If it rains, the ground will be wet. (Premise)
+2. It is raining. (Premise)
+3. Therefore, the ground is wet. (Conclusion)
+   \`\`\`
+
+#### 💡 Hints/Tips/Rules:
+
+- Choose the method of proof that is most appropriate for your argument.
+- Keep track of your premises and the steps you've taken to avoid errors.
+- Familiarize yourself with common methods like Modus Ponens, Modus Tollens, and proof by contradiction.
+
+#### 🎯 Why is it relevant and when to use it:
+
+Knowing various methods of proof allows you to evaluate or construct strong, logical arguments. Whether you're in academics, law, or even everyday reasoning, understanding these methods can be invaluable.
+
+#### 📚 Symbols and notations used:
+
+| Name               | Symbol                | Description                                         |
+|--------------------|-----------------------|-----------------------------------------------------|
+| Individual Constant| $( a, b, c, \ldots )$  | Symbols that uniquely identify specific objects     |
+| Atomic Sentence    | $( P(a), Q(b), R(c) )$| Simplest form of sentences incorporating individual constants |
+
+#### 📝 Summary of Key Point:
+
+Methods of proof are structured approaches used in logic to validate or prove statements. They are the logical "moves" that help you win your argument by reaching a valid conclusion.
+
+---
 
 ### 2.3 Formal proofs
 
