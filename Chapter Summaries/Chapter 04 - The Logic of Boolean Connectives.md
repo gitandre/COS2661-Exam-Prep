@@ -80,17 +80,130 @@ Logical and tautological equivalence is a fundamental concept in logic that deal
 
 --
 
+## The Logic of Boolean Connectives
 ### 4.3 Logical and tautological consequence
 
+#### 🧒 Explain to me like I am 10
+Imagine you have a puzzle. If one piece fits into another, then it's like saying the second piece is a 'consequence' of the first. In logic, if one statement makes another statement always true, then the second is a consequence of the first.
+
+#### 🎓 A formal explanation explained
+In logic, a formula \( \phi \) is a logical consequence of a set of formulas \( \Gamma \) if every model that makes all formulas in \( \Gamma \) true also makes \( \phi \) true. In other words, \( \phi \) has to be true whenever \( \Gamma \) is true.
+
+#### 📖 Definition
+A formula \( \phi \) is a tautological consequence of a set of formulas \( \Gamma \), written \( \Gamma \models \phi \), if every truth assignment that makes all formulas in \( \Gamma \) true also makes \( \phi \) true.
+
+#### 📐 Example
+\`\`\`text
+Example 1: \( Q \) is a logical consequence of \( P \rightarrow Q \) and \( P \).
+Example 2: \( P \lor Q \) is a tautological consequence of \( P \).
+\`\`\`
+
+#### 💡 Hints/Tips/Rules
+- Use truth tables to test for logical consequence.
+- A formula can have multiple consequences.
+
+#### 🎯 Why is it relevant and when to use it
+Understanding logical consequence is crucial for making valid arguments and proofs. It helps you know what must be true given certain assumptions.
+
+#### 📚 Symbols and notations used
+
+| Name                  | Symbol                     | Description                                              |
+|-----------------------|----------------------------|----------------------------------------------------------|
+| Individual Constant   | $( a, b, c, \ldots )$       | Symbols that uniquely identify specific objects          |
+| Atomic Sentence       | $( P(a), Q(b), R(c) )$      | Simplest form of sentences incorporating individual constants |
+
+#### 📝 Summary of Key Point
+Logical and tautological consequence are foundational concepts in logic. They help you understand what must necessarily follow from a given set of statements, aiding in argumentation and proof.
+
+
+
 
 --
 
+## The Logic of Boolean Connectives
 ### 4.4 Tautological consequence in Fitch
 
+#### 🧒 Explain to me like I am 10
+Think of Fitch like a game of clues. You have clues, or "premises," and you want to find out something true based on those clues. A "Tautological Consequence" in Fitch is like finding a clue that always leads you to the same answer, no matter what.
+
+#### 🎓 A formal explanation explained
+In Fitch, a statement is a "Tautological Consequence" if it is always true whenever the premises it is based on are true. This means you can prove this statement using the rules of the game (Fitch), without needing any extra clues.
+
+#### 📖 Definition
+In Fitch, a proposition \( P \) is a tautological consequence of a set of propositions \( \Gamma \) if, whenever all propositions in \( \Gamma \) are true, \( P \) must also be true.
+
+#### 📐 Example
+\`\`\`
+1. \( P \lor Q \)  (Premise)
+2. \( \lnot P \)   (Premise)
+----------------
+3. \( Q \)         (Tautological Consequence)
+   \`\`\`
+
+#### 💡 Hints/Tips/Rules
+- Make sure to follow the rules of inference in Fitch.
+- Take your time to understand the premises before jumping to conclusions.
+
+#### 🎯 Why is it relevant and when to use it
+Understanding "Tautological Consequence" helps you build strong arguments and understand when a statement must be true, based on the clues you have. It's a powerful tool in logic and reasoning.
+
+#### 📚 Symbols and notations used
+
+| Name                      | Symbol            | Description                                         |
+|---------------------------|-------------------|-----------------------------------------------------|
+| Proposition               | \( P, Q, R \)     | Basic statements that can be true or false          |
+| Tautological Consequence  | \( \vdash \)      | Symbol showing that one thing is a consequence of another |
+
+#### 📝 Summary of Key Point
+A Tautological Consequence in Fitch is a statement that is always true when the premises it is based on are true. Understanding this helps you make strong logical arguments.
+
+
 
 --
 
+## The Logic of Boolean Connectives
 ### 4.5 Pushing negation around (optional)
+
+#### 🧒 Explain to me like I am 10
+Imagine you're playing with building blocks. Some blocks are red, and some are blue. Saying "not red" means it has to be blue. "Pushing negation around" is like playing with these "not" rules to make your building game easier!
+
+#### 🎓 A formal explanation explained
+In formal logic, pushing negation around refers to using specific rules to move the negation symbol (\( \lnot \)) within logical expressions. This helps simplify complex statements into a more manageable form.
+
+#### 📖 Definition
+Pushing negation is the process of applying De Morgan's laws and double negation elimination to simplify logical expressions involving negation (\( \lnot \)).
+
+#### 📐 Example
+\`\`\`plaintext
+Original Expression: \( \lnot (P \land Q) \)
+After Pushing Negation: \( (\lnot P) \lor (\lnot Q) \)
+
+Truth Table:
+| P | Q | \( \lnot (P \land Q) \) | \( (\lnot P) \lor (\lnot Q) \) |
+|---|---|-------------------------|--------------------------------|
+| T | T |           F             |                F               |
+| T | F |           T             |                T               |
+| F | T |           T             |                T               |
+| F | F |           T             |                T               |
+\`\`\`
+
+#### 💡 Hints/Tips/Rules
+- Use De Morgan's laws to push negation over conjunction (\( \land \)) and disjunction (\( \lor \)).
+- Eliminate double negatives when possible.
+
+#### 🎯 Why is it relevant and when to use it
+Pushing negation is useful for simplifying logical expressions, making them easier to analyze or prove. It's often used in mathematical proofs, computer science algorithms, and even legal arguments.
+
+#### 📚 Symbols and notations used
+
+| Name                      | Symbol         | Description                                         |
+|---------------------------|----------------|------------------------------------------------------|
+| Negation                  | \( \lnot \)    | Symbol used to indicate logical negation             |
+| Conjunction               | \( \land \)    | Symbol used to indicate logical AND                  |
+| Disjunction               | \( \lor \)     | Symbol used to indicate logical OR                   |
+
+#### 📝 Summary of Key Point
+Pushing negation around simplifies complex logical expressions, making them easier to understand, analyze, and prove. It involves using specific rules like De Morgan's laws and double negation elimination.
 
 
 --
