@@ -151,7 +151,52 @@ A formal proof is a rigorous, step-by-step demonstration that uses logical rules
 
 ---
 
-### 2.4 Constructing proofs in Fitch
+## The Logic of Atomic Sentences
+### **2.4 Constructing proofs in Fitch**
+
+#### 🧒 Explain to me like I am 10:
+
+You know how you follow a recipe step-by-step to bake a cake? Fitch is like a special recipe book for solving logic puzzles. You follow each step carefully, and if you do it right, you'll find out if something is true or not!
+
+#### 🎓 A formal explanation explained:
+
+Fitch is a formal system used for constructing logical proofs. It provides a structured environment where each step of reasoning is clearly laid out, following specific rules and formats to derive a conclusion from initial premises.
+
+#### 📖 Definition:
+
+In the Fitch system, a formal proof is constructed using a series of statements, each accompanied by a justification. The justification can be a rule of inference, a premise, or a previously proven statement.
+
+#### 📐 Example:
+
+\`\`\`plaintext
+Fitch-style Proof Example:
+1. \( P \)                     Premise
+2. \( P \rightarrow Q \)       Premise
+3. \( Q \)                     Modus Ponens from 1 and 2
+   \`\`\`
+
+#### 💡 Hints/Tips/Rules:
+
+- Always start with your premises clearly stated.
+- Follow each rule of inference meticulously.
+- Annotations are crucial; they explain why each step is valid.
+
+#### 🎯 Why is it relevant and when to use it:
+
+Fitch is particularly useful in academic settings, formal logic studies, and computer science for algorithmic verification. It's a precise way to ensure the logical soundness of an argument or computation.
+
+#### 📚 Symbols and notations used:
+
+| Name               | Symbol                | Description                                         |
+|--------------------|-----------------------|-----------------------------------------------------|
+| Individual Constant| $( a, b, c, \ldots )$  | Symbols that uniquely identify specific objects     |
+| Atomic Sentence    | $( P(a), Q(b), R(c) )$| Simplest form of sentences incorporating individual constants |
+
+#### 📝 Summary of Key Point:
+
+Constructing proofs in Fitch involves following a structured system to derive logical conclusions from premises. It's a rigorous and reliable method for conducting logical proofs and is widely used in various fields requiring formal reasoning.
+
+---
 
 ### 2.5 Demonstrating nonconsequence
 
